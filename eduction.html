@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>StudyHub Pakistan — Free Notes & Past Papers</title>
+  <meta name="description" content="Free notes, past papers, and syllabus for 9th, 10th, 1st year and 2nd year students in Pakistan." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo"><a href="index.html">StudyHub ????</a></h1>
+      <nav class="main-nav">
+        <a href="9th.html">9th</a>
+        <a href="10th.html">10th</a>
+        <a href="1st-year.html">1st Year</a>
+        <a href="2nd-year.html">2nd Year</a>
+        <a href="#contact" class="btn-link">Contact</a>
+      </nav>
+      <button id="menuToggle" class="menu-toggle" aria-label="menu">?</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Free Notes, Past Papers & Syllabus</h2>
+        <p>Comprehensive resources for 9th, 10th, 1st year and 2nd year students — downloadable PDFs, topic notes and solved past papers.</p>
+
+        <div class="search-wrap">
+          <input id="searchInput" type="search" placeholder="Search topics, subjects or keywords..." />
+        </div>
+
+        <div class="cards">
+          <a class="card" href="9th.html"><strong>9th Class</strong><span>Physics, Chemistry, Biology, Math & English</span></a>
+          <a class="card" href="10th.html"><strong>10th Class</strong><span>Syllabus, Notes & Past Papers</span></a>
+          <a class="card" href="1st-year.html"><strong>1st Year</strong><span>Pre-med/Pre-engineering resources</span></a>
+          <a class="card" href="2nd-year.html"><strong>2nd Year</strong><span>Advanced notes & model papers</span></a>
+        </div>
+
+        <h3 class="popular">Popular Topics</h3>
+        <ul id="topicList" class="topic-list">
+          <li><a href="9th.html#physics">Physics - 9th</a></li>
+          <li><a href="9th.html#math">Maths - 9th</a></li>
+          <li><a href="10th.html#english">English - 10th</a></li>
+          <li><a href="1st-year.html#chemistry">Chemistry - 1st Year</a></li>
+          <li><a href="2nd-year.html#biology">Biology - 2nd Year</a></li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section class="how-to container">
+      <h3>How to Use</h3>
+      <ol>
+        <li>Choose your class page from the menu.</li>
+        <li>Open subject pages and download PDFs or view notes.</li>
+        <li>Use the search box for quick lookup of topics.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <h4>Contact</h4>
+        <p>Email: studyhub@example.com</p>
+      </div>
+      <div>
+        <h4>About</h4>
+        <p>Free educational resources for Pakistani students.</p>
+      </div>
+    </div>
+    <div class="copyright">© <span id="year"></span> StudyHub Pakistan. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>9th Class Notes & Past Papers — StudyHub</title>
+  <meta name="description" content="9th class notes, solved past papers and syllabus for Pakistani boards." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo"><a href="index.html">StudyHub</a></h1>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="10th.html">10th</a>
+        <a href="1st-year.html">1st Year</a>
+        <a href="2nd-year.html">2nd Year</a>
+      </nav>
+      <button id="menuToggle2" class="menu-toggle" aria-label="menu">?</button>
+    </div>
+  </header>
+
+  <main class="container content">
+    <h2 id="physics">9th Class — Physics</h2>
+    <p>Basic mechanics, measurements, motion and more. Below are note packs and past paper solutions.</p>
+
+    <div class="subject-grid">
+      <article class="subject-card">
+        <h3>Physics - Notes</h3>
+        <p>Short notes covering all chapters for 9th class.</p>
+        <a class="download" href="#">Download PDF (sample)</a>
+      </article>
+
+      <article class="subject-card">
+        <h3>Maths - Topicwise</h3>
+        <p>Algebra, geometry and numericals with solved examples.</p>
+        <a class="download" href="#">View Notes</a>
+      </article>
+
+      <article class="subject-card">
+        <h3>Biology - Past Papers</h3>
+        <p>Solved past papers (2015–2024) with marking scheme.</p>
+        <a class="download" href="#">Download Past Papers</a>
+      </article>
+    </div>
+
+    <section class="more-links">
+      <h3>Other Subjects</h3>
+      <ul>
+        <li><a href="#">Chemistry - Notes</a></li>
+        <li><a href="#">English Grammar & Composition</a></li>
+        <li><a href="#">Islamiat / Pakistan Studies</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a> • <a href="10th.html">10th</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>studyhub@example.com</p>
+      </div>
+    </div>
+    <div class="copyright">© <span id="year2"></span> StudyHub Pakistan</div>
+  </footer>
+
+  <script>
+    // simple year update
+    document.getElementById('year2').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>10th Class Resources — StudyHub</title>
+  <meta name="description" content="10th class notes, model papers and solved past papers." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo"><a href="index.html">StudyHub</a></h1>
+      <nav class="main-nav">
+        <a href="9th.html">9th</a>
+        <a href="index.html">Home</a>
+        <a href="1st-year.html">1st Year</a>
+        <a href="2nd-year.html">2nd Year</a>
+      </nav>
+      <button class="menu-toggle" aria-label="menu">?</button>
+    </div>
+  </header>
+
+  <main class="container content">
+    <h2 id="english">10th Class — English</h2>
+    <p>Model essays, comprehension practice and grammar notes.</p>
+
+    <div class="subject-grid">
+      <article class="subject-card">
+        <h3>English Essays</h3>
+        <p>Common essays with outlines and sample answers.</p>
+        <a class="download" href="#">Open</a>
+      </article>
+      <article class="subject-card">
+        <h3>Maths - Solved</h3>
+        <p>Important past paper questions solved step-by-step.</p>
+        <a class="download" href="#">Open</a>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><h4>Contact</h4><p>studyhub@example.com</p></div>
+    </div>
+    <div class="copyright">© <span id="y3"></span> StudyHub</div>
+  </footer>
+
+  <script>document.getElementById('y3').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>1st Year Notes — StudyHub</title>
+  <meta name="description" content="1st year pre-med and pre-engineering notes and past papers." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo"><a href="index.html">StudyHub</a></h1>
+      <nav class="main-nav">
+        <a href="9th.html">9th</a>
+        <a href="10th.html">10th</a>
+        <a href="index.html">Home</a>
+        <a href="2nd-year.html">2nd Year</a>
+      </nav>
+      <button class="menu-toggle" aria-label="menu">?</button>
+    </div>
+  </header>
+
+  <main class="container content">
+    <h2 id="chemistry">1st Year — Chemistry</h2>
+    <p>Notes for organic/inorganic topics, practicals and MCQs.</p>
+
+    <div class="subject-grid">
+      <article class="subject-card"><h3>Organic Chemistry</h3><a class="download" href="#">Notes</a></article>
+      <article class="subject-card"><h3>Physics (Mechanics)</h3><a class="download" href="#">Notes</a></article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><div><h4>Contact</h4><p>studyhub@example.com</p></div></div>
+    <div class="copyright">© <span id="y4"></span> StudyHub</div>
+  </footer>
+  <script>document.getElementById('y4').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>2nd Year Resources — StudyHub</title>
+  <meta name="description" content="2nd year notes, model papers and exam preparation." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo"><a href="index.html">StudyHub</a></h1>
+      <nav class="main-nav">
+        <a href="9th.html">9th</a>
+        <a href="10th.html">10th</a>
+        <a href="1st-year.html">1st Year</a>
+        <a href="index.html">Home</a>
+      </nav>
+      <button class="menu-toggle" aria-label="menu">?</button>
+    </div>
+  </header>
+
+  <main class="container content">
+    <h2 id="biology">2nd Year — Biology</h2>
+    <p>Advanced notes and specimen papers for medical students.</p>
+
+    <div class="subject-grid">
+      <article class="subject-card"><h3>Human Physiology</h3><a class="download" href="#">View Notes</a></article>
+      <article class="subject-card"><h3>Model Papers</h3><a class="download" href="#">Download</a></article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><div><h4>Contact</h4><p>studyhub@example.com</p></div></div>
+    <div class="copyright">© <span id="y5"></span> StudyHub</div>
+  </footer>
+  <script>document.getElementById('y5').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+:root{
+  --accent:#0b5ed7;
+  --muted:#6b7280;
+  --bg:#f7fbff;
+  --card:#fff;
+}
+
+*{box-sizing:border-box}
+body{
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin:0; background:var(--bg); color:#111; line-height:1.5;
+}
+
+.container{max-width:1100px;margin:0 auto;padding:18px}
+
+.site-header{background:var(--accent);color:#fff;position:sticky;top:0;z-index:10}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 18px}
+.logo a{color:#fff;text-decoration:none;font-size:20px;font-weight:700}
+.main-nav a{color:#fff;margin-left:16px;text-decoration:none;font-weight:600}
+.menu-toggle{display:none;background:transparent;border:0;color:#fff;font-size:20px}
+
+/* Hero */
+.hero{padding:34px 0;text-align:center}
+.hero h2{font-size:28px;margin:6px 0}
+.hero p{color:var(--muted);margin-bottom:14px}
+.search-wrap{display:flex;justify-content:center;margin:12px 0}
+.search-wrap input{width:90%;max-width:700px;padding:12px;border-radius:8px;border:1px solid #dbeafe}
+
+/* Cards */
+.cards{display:flex;flex-wrap:wrap;gap:18px;justify-content:center;margin-top:18px}
+.card{background:var(--card);display:block;padding:18px 20px;border-radius:12px;width:220px;text-align:left;box-shadow:0 6px 18px rgba(4,17,29,0.06);text-decoration:none;color:var(--accent)}
+.card strong{display:block;font-size:18px;margin-bottom:6px}
+.card span{color:var(--muted);font-size:13px}
+
+/* content pages */
+.content{padding:26px 18px}
+.subject-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:14px}
+.subject-card{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 6px 14px rgba(5,15,30,0.05)}
+.download{display:inline-block;margin-top:10px;padding:8px 12px;background:var(--accent);color:#fff;border-radius:8px;text-decoration:none}
+
+/* lists */
+.topic-list{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;padding:0;list-style:none}
+.topic-list li a{background:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;color:var(--accent);box-shadow:0 4px 10px rgba(4,17,29,0.04)}
+
+/* footer */
+.site-footer{background:#05285a;color:#fff;padding:18px 0;margin-top:28px}
+.footer-inner{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.site-footer a{color:#fff;text-decoration:none}
+.copyright{text-align:center;padding:10px;background:#032046;color:#cfe2ff;font-size:14px}
+
+/* responsive */
+@media (max-width:800px){
+  .main-nav{display:none}
+  .menu-toggle{display:inline-block}
+  .header-inner{gap:10px}
+}
+// basic UI behaviors: search & mobile menu
+document.addEventListener('DOMContentLoaded', function () {
+  // year on index
+  const yEl = document.getElementById('year');
+  if (yEl) yEl.textContent = new Date().getFullYear();
+
+  // menu toggle (simple)
+  const toggles = document.querySelectorAll('.menu-toggle');
+  toggles.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const nav = document.querySelector('.main-nav');
+      if (!nav) return;
+      if (nav.style.display === 'flex' || nav.style.display === 'block') {
+        nav.style.display = 'none';
+      } else {
+        nav.style.display = 'flex';
+        nav.style.flexDirection = 'column';
+        nav.style.background = 'rgba(0,0,0,0.03)';
+        nav.style.padding = '10px';
+        nav.style.position = 'absolute';
+        nav.style.right = '18px';
+        nav.style.top = '62px';
+        nav.style.borderRadius = '8px';
+      }
+    });
+  });
+
+  // client-side search: filter topicList + card titles
+  const input = document.getElementById('searchInput');
+  if (!input) return;
+  input.addEventListener('input', function () {
+    const q = this.value.trim().toLowerCase();
+    // filter topic list items
+    const topics = document.querySelectorAll('#topicList li');
+    topics.forEach(li => {
+      const txt = li.textContent.toLowerCase();
+      li.style.display = txt.includes(q) ? '' : 'none';
+    });
+
+    // filter cards on home page
+    const cards = document.querySelectorAll('.cards .card');
+    cards.forEach(c => {
+      const txt = c.textContent.toLowerCase();
+      c.style.display = txt.includes(q) ? '' : 'none';
+    });
+  });
+});
